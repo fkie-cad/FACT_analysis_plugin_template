@@ -39,6 +39,7 @@ class AnalysisPlugin(AnalysisBasePlugin):
         result_b = 1337
 
         # store the results
+        file_object.processed_analysis[self.NAME] = dict()
         file_object.processed_analysis[self.NAME]['analysis_result_a'] = result_a
         file_object.processed_analysis[self.NAME]['analysis_result_b'] = result_b
 
