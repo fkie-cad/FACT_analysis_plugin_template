@@ -43,6 +43,6 @@ class AnalysisPlugin(AnalysisBasePlugin):
         file_object.processed_analysis[self.NAME]['analysis_result_b'] = result_b
 
         # propagate some summary to parent objects
-        file_object.processed_analysis[self.NAME]['summary'] = '{} - {}'.format(result_a, result_b)
+        file_object.processed_analysis[self.NAME]['summary'] = ['{} - {}'.format(result_a, result_b)]
 
         return file_object
