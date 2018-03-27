@@ -23,4 +23,4 @@ class test_analysis_plugin_YOUR_PLUGIN_NAME(AnalysisPluginTest):
         test_object = FileObject()
         self.analysis_plugin.process_object(test_object)
 
-        self.assertEqual(test_object.processed_analysis[self.PLUGIN_NAME]['analysis_result_a'], 'Hello_World')
+        self.assertEqual(test_object.processed_analysis[self.PLUGIN_NAME]['analysis_result_a'], 'hello world')
