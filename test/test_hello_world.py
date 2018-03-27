@@ -4,7 +4,7 @@ from objects.file import FileObject
 from ..code.hello_world import AnalysisPlugin
 
 
-class test_analysis_plugin_YOUR_PLUGIN_NAME(AnalysisPluginTest):
+class test_analysis_plugin_Hello_World(AnalysisPluginTest):
 
     PLUGIN_NAME = 'Hello_World'
 
