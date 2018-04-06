@@ -7,9 +7,9 @@ A minimal README template can be found below.
 
 ----------8<----------8<----------8<----------8<----------
 
-# Hello World FACT Plug-in
+# FACT Plug-in - Hello World 
 
-A [FACT](https://github.com/fkie-cad/FACT_core) development demo Plug-in.
+A [FACT](https://github.com/fkie-cad/FACT_core) development demo plug-in.
 
 ```sh
 $ git submodule add https://github.com/fkie-cad/FACT_analysis_plugin_template.git src/plugins/analysis/hello_world
