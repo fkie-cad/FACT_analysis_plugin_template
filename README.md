@@ -1,5 +1,7 @@
 # FACT_analysis_plugin_template
 Download this Hello World template if you want to write your own FACT analysis plug-in.
+All content of this Repo must be copied to src/plugins/analysis/PLUGIN_NAME.
+Change PLUGIN_NAME to the desired name of your plug-in
 
 This repository provides a minimal functional plug-in.
 
