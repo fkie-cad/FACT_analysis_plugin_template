@@ -30,7 +30,7 @@ class AnalysisPlugin(AnalysisBasePlugin):
 
         File's binary is available via "file_object.binary".
         File's local storage path is available via "file_object.file_path".
-        Results of other plug-ins can be accesd via "file_object.processed_analysis['PLUGIN_NAME']".
+        Results of other plug-ins can be accessed via "file_object.processed_analysis['PLUGIN_NAME']".
         Do not forget to add these plug-ins to "DEPENDENCIES".
         '''
 
